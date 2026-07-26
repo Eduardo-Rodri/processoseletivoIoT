@@ -54,7 +54,7 @@ def verificar_botao():
         if leitura != estado_btn_confirmado:
             estado_btn_confirmado = leitura
 
-            if leitura == 0:
+            if leitura == 1:
                 resetar_turno()
 
 
