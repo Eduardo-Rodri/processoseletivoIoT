@@ -31,7 +31,6 @@ def ler_adc():
 
     return adc.read()
 
-
 def resetar_turno():
     global contador_pecas, tempo_inicio_bloqueio, alerta_microparada_emitido
     contador_pecas = 0
