@@ -1,4 +1,3 @@
-print("Sistema Kanban Inicializado")
 
 import machine
 import time
